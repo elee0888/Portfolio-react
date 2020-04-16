@@ -7,3 +7,5 @@ export const Contact=() =>(
         <p> LinkedIn</p>
     </div>
 )
+
+export default Contact;

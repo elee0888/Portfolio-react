@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #4c7f7f;
+    color: rgb(124, 119, 119);
+    font-size: 15pt;
+    margin-top: 1px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.dropdown-item {
+    background-color: rgb(241, 241, 198);
+}
+
+.nav-link {
+    padding: 10px;
+}

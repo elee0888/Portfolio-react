@@ -1,36 +1,34 @@
-import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {Home} from './Home';
-import {About} from './About';
-import {Contact} from './Contact';
-import {Layout} from './component/Layout';
-import { NavigationBar } from './component/NavigationBar';
-import { Jumbotron } from './component/Jumbotron';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
+import Jumbotron from "./components/Jumbotron";
 
 
-class App extends Component{
+function App (){
 
-  render(){
     return(
-      <React.Fragment>
-        <NavigationBar />
+      <Router>
+        <div>
+        <NavBar />
         <Jumbotron />
-       <Layout>
-        <Router>
-          <Switch>
-            <Route exact path= "/" component={Home} />
-            <Route path= "/about" component={About} />
-            <Route path= "/contact" component={Contact} />
-           </Switch>
-        </Router>
-       </Layout>
-      </React.Fragment> 
-    
-
+        <Wrapper>
+            <Route exact path= "/" component={About} />
+            <Route exact path= "/About" component={About} />
+            <Route path= "/Portfolio" component={Portfolio} />
+            <Route path= "/Resume" component={Resume} />
+            <Route path= "/Contact" component={Contact} />
+          </Wrapper>
+          <Footer />
+        </div>
+      </Router>
     );
   }
-}
 
 export default App;
   
