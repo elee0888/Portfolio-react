@@ -4,12 +4,18 @@ import {Home} from './Home';
 import {About} from './About';
 import {Contact} from './Contact';
 import {Layout} from './component/Layout';
- 
+import { NavigationBar } from './component/NavigationBar';
+import { Jumbotron } from './component/Jumbotron';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 class App extends Component{
 
   render(){
     return(
       <React.Fragment>
+        <NavigationBar />
+        <Jumbotron />
        <Layout>
         <Router>
           <Switch>
