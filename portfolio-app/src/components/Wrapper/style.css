@@ -1,9 +1,12 @@
 .wrapper {
     font-family: 'Questrial', sans-serif;
     display: flex;
-    background-image: url("../../images/wallImage.jpg");
+    background-color: rgb(177, 173, 173);
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 1;
+    padding-bottom: 10px;;
+    border-bottom: 10px;
 }
 
 a {
@@ -24,6 +27,6 @@ a:hover {
 }
 
 p {
-    font-size: 13pt;
+    font-size: 18pt;
 }
 

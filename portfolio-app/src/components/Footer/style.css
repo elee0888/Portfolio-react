@@ -1,12 +1,12 @@
 .position-sticky {
-    background-color: rgb(58, 63, 58);
-    color: #cccccc;
+    background-image: url("../../images/wallImage.jpg");;
+    color: #ebe6e6;
     text-align: center;
-    height: 70px;
-    padding: 20px;
+    height: 100px;
+    padding: 10px;
     border-top: 5px solid #4c7f7f;
     position: fixed;
-    bottom: 0px;
+    bottom: 10px;
     width: 100%;
-    font-size: 12px;
+    font-size: 16px;
 }
