@@ -1,7 +1,7 @@
 export default [
     {
       id: 1,
-      image: require("./images/Lively.png"),
+      image: ("./images/Lively.png"),
       card_title: "Lively",
       card_text:
         "A music app that allows users to find theyir favorite song or artist and see what their top played song is. Along with other related artist is displayed as well.",
@@ -19,7 +19,7 @@ export default [
     },
     {
       id: 2,
-      image: require("./images/ShopWise.PNG"),
+      image: ("./images/ShopWise.PNG"),
       card_title: "ShopWise",
       card_text:
         "A ecommerce website that will let users shop for products. Displaying the inforation about the product for the user. Also can allow the user to add the product to the cart as well. Further updates may soon to come.",
@@ -38,7 +38,7 @@ export default [
     },
     {
       id: 3,
-      image: require("./images/developer-profile-generator.PNG"),
+      image: ("./images/developer-profile-generator.PNG"),
       card_title: "Devloper Profile Generator",
       card_text:
         "This app uses Node.js to generate a HTML file by pulling a user's profile information from GitHub, then creates a PDF file from that HTML file.",
@@ -55,7 +55,7 @@ export default [
     },
     {
       id: 4,
-      image: require("./images/Capture.PNG"),
+      image: ("./images/Capture.PNG"),
       card_title: "Day Planner",
       card_text:
         "Plan for your day using the time blocks corresponding to typical business workday (9AM - 9PM). After inputting a plan or description into the appropriate block be sure to save using the side blue button with the lock icon. This will save the inputted tasks for that block into local storage and will re-populate even when page is refreshed.",
@@ -73,7 +73,7 @@ export default [
     },
     {
       id: 5,
-      image: require("./images/hot-restaurant.PNG"),
+      image: ("./images/hot-restaurant.PNG"),
       card_title: "Hot Restaurant",
       card_text:
         "A app to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.",
@@ -92,7 +92,7 @@ export default [
     },
     {
       id: 6,
-      image: require("./images/employee-directory.PNG"),
+      image: ("./images/employee-directory.PNG"),
       card_title: "Employee Directory",
       card_text:
         "A React employee directory application allowing users to view all employees, sort employees by last name, phone number, or age, in ascending and descending order, as well as search for employees by name.",
