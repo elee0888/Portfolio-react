@@ -1,9 +1,13 @@
 .navbar {
-
+    background-color: lavender;
     color: rgb(182, 176, 176);
     font-size: 15pt;
     margin-top: 1px;
     font-family: 'Questrial', sans-serif;
+    margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;    
+    min-width: 1000px;
 }
 
 .dropdown-item {
@@ -13,3 +17,5 @@
 .nav-link {
     padding: 10px;
 }
+
+

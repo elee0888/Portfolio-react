@@ -10,6 +10,7 @@ import Wrapper from "./components/Wrapper";
 import Jumbotron from "./components/Jumbotron";
 
 
+
 function App (){
 
     return(
@@ -19,7 +20,7 @@ function App (){
         <Jumbotron />
         <Wrapper>
             <Route exact path= "/" component={About} />
-            <Route exact path= "/About" component={About} />
+            <Route path= "/About" component={About} />
             <Route path= "/Portfolio" component={Portfolio} />
             <Route path= "/Resume" component={Resume} />
             <Route path= "/Contact" component={Contact} />
