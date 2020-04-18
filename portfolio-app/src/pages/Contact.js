@@ -12,7 +12,8 @@ export const Contact=() =>(
         <p><a href="https://github.com/elee0888">GitHub</a></p>
         <p><a href="https://www.linkedin.com/in/eric-lee-156300b1/">LinkedIn</a></p>
         <p><a href= {pdf}>Resume</a></p>
-        <FontAwesomeIcon icon={faEnvelope}/>
+        <p><h3>Email: eric.glee092@gmail.com</h3></p>
+        
     </div>
 )
 
