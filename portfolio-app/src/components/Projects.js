@@ -93,7 +93,7 @@ export default [
     {
       id: 6,
       image: require("./images/employee-directory.PNG"),
-      card_title: "Employee Tracker",
+      card_title: "Employee Directory",
       card_text:
         "A React employee directory application allowing users to view all employees, sort employees by last name, phone number, or age, in ascending and descending order, as well as search for employees by name.",
       technologies: [
