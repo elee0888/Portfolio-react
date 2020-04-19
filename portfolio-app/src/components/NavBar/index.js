@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+
 
 function Navbar() {
   return (
@@ -12,9 +12,6 @@ function Navbar() {
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
-      <li className="nav-item active">
-       
-      </li>
       <li className="nav-item">
         <a className="nav-link" href="/About">About Me</a>
       </li>
@@ -24,9 +21,23 @@ function Navbar() {
       <li className="nav-item">
         <a className="nav-link" href="/Contact">Contact</a>
       </li>
+      <div className="dropdown-menu">
+            <a className="dropdown-item" href="About">
+              About Me
+            </a>
+            <a className="dropdown-item" href="Portfolio">
+              Portfolio
+            </a>
+            <a className="dropdown-item" href="Contact">
+              Contact
+            </a>
+          </div>
     </ul>
   </div>
 </nav>
+  );
+}
+export default Navbar;
   //   <nav className="navbar navbar-expand-lg">
       
   //     <div className="collapse navbar-collapse" id="navbarNav">
@@ -54,6 +65,3 @@ function Navbar() {
   //       </ul>
   //     </div>
   //   </nav>
-   );
-}
-export default Navbar;

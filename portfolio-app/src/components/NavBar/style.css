@@ -7,12 +7,10 @@
     margin-right: auto;    
     margin-left: auto;    
     max-width: 100%;    
-    min-width: 1000px;
+    
 }
 
-.dropdown-item {
-    background-color: rgb(241, 241, 198);
-}
+
 
 .nav-link {
     padding: 10px;
